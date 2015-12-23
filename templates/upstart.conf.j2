@@ -14,5 +14,5 @@ chdir {{kibana_home}}/www
 
 env NODE_ENV=production
 
-exec ./node/bin/node ./src/bin/kibana.js --config={{kibana_home}}/kibana.yml
+exec ./bin/kibana {{ kibana_home }}/kibana.yml
 
